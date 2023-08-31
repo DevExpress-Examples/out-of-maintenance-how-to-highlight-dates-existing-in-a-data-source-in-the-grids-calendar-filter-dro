@@ -15,7 +15,7 @@
 # How to highlight dates existing in a data source in the grid's calendar filter drop-down
 
 
-<p>This example demonstrates how to highlight dates existing in a data source in the grid's calendar filter drop-down.</p>
+<p>You can use the “Values” tab in the <a href="https://docs.devexpress.com/WindowsForms/114635/controls-and-libraries/data-grid/filter-and-search#filter-drop-down-menus-excel-style">Filter Drop-down Menus</a> to show all day from your GridControl</p>
 
 <br/>
 
