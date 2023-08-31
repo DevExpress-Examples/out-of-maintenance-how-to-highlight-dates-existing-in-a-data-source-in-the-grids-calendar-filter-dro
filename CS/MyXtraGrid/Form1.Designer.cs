@@ -9,6 +9,9 @@
 // You can find sample updates and versions for different programming languages here:
 // http://www.devexpress.com/example=E900
 
+using DevExpress.XtraGrid;
+using DevExpress.XtraGrid.Views.Grid;
+
 namespace MyXtraGrid {
     partial class Form1 {
         /// <summary>
@@ -34,8 +37,8 @@ namespace MyXtraGrid {
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent() {
-            this.myGridControl1 = new MyXtraGrid.MyGridControl();
-            this.myGridView1 = new MyXtraGrid.MyGridView();
+            this.myGridControl1 = new GridControl();
+            this.myGridView1 = new GridView();
             ((System.ComponentModel.ISupportInitialize)(this.myGridControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.myGridView1)).BeginInit();
             this.SuspendLayout();
@@ -78,8 +81,8 @@ namespace MyXtraGrid {
 
         #endregion
 
-        private MyGridControl myGridControl1;
-        private MyGridView myGridView1;
+        private GridControl myGridControl1;
+        private GridView myGridView1;
     }
 }
 
